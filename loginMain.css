@@ -1,0 +1,57 @@
+body{
+    font-family: arial, sans-serif;
+    width: 25%;
+}
+strong{
+    color: rgb(13, 82, 211);
+}
+.username{
+    height: 30px;
+    width: 300px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.username:hover{
+    border-color: rgb(63, 187, 32);
+    
+}
+::placeholder{
+    text-align: left;
+}
+input[value]{
+    text-align: left;
+}
+.checComment{
+   
+    margin: 0;
+    margin-right: 5px;
+    margin-left: 10px;
+    align-items: center;
+    
+}
+.btn-buttom{
+    height: 40px;
+    width: 360px;
+    text-align: center;
+    background-color: #196339	
+
+}
+.btn-buttom[value]:last-child{
+    text-align: center;
+    color: white;
+    border-color: white;
+}
+.checBoxsize{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+.first{
+    align-items: center;
+}
+.second{
+    margin-top: 30px;
+    margin-right: 10px;
+}
